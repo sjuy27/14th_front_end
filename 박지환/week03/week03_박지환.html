@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body class="md:grid md:grid-color-5 flex flex-col bg-neutral-800 text-white">
+  <div class="overflow-hidden rounded-x1 shadow-lg ">
+    <div class="md:hidden bg-[#252526] boder-b boder-[#333]">
+      <details>
+        <summary class="list_none p-4 flex justify-between items-center text-white">
+          <span>📁 Week_01</span>
+          <span>▼</span>
+        </summary>
+        <ul class="bg-gray-900 border-t boder-[#333]">
+          <li class="p-3 px-8 bg-[#37373d] text-white boder-1-4 border-yellow-400">Week_01</li>
+          <li class="p-3 -px-8 hover:bg-[#2a2s2e] text-gray-400">Week_02</li>
+          <li class="p-3 -px-8 hover:bg-[#2a2s2e] text-gray-400">Week_03</li>
+        </ul>
+      </details>
+    </div>
+
+    <aside class="hidden col-span-1 md:block w-64 bg-[#252526] boder-r boder-[#333]">
+      <div class="p-4 text-xs text-gray-400 font-bold uppercase tracking-widest">EXPLORER</div>
+      <ul>
+        <li class="bg-[#37373d] text-white boder-l-4 boder-yellow-400 px-4 py-2">
+          <span>📄</span> Week_01
+        </li>
+        <li class="px-4 py-2 text-gray-400 hover:bg-[#2a2d2e]">
+          📄 Week_02
+        </li>
+        <li class="px-4 py-2 text-gray-400 hover:bg-[#2a2d2e]">
+          📄 Week_03
+        </li>
+        <li class="px-4 py-2 text-gray-400 hover:bg-[#2a2d2e]">
+          📄 Week_04
+        </li>
+      </ul>
+    </aside>
+
+    <main class="col-span-4 boder-1 boder-neutral-700">
+      <div class="flex bg-[#252526 boder-b boder-[#1e1e1e]]">
+        <div class="px-5 py-2 bg-[#1e1e1e] text-white boder-b-2 boder-yellow-400">
+          Frontend.js
+        </div>
+        <div class="px-5 py-2 text-gray-500 hover:bg-[#2d2d2d] boder-r boder-[#1e1e1e]">
+          Backend.java
+        </div>
+      </div>
+
+      <div class="flex-1 p-6 overflow-y-auto leading-7 bg-[#1e1e1e]">
+
+        <div class="flex hover:bg-[#2a2d2e] px-2 rounded gap-4">
+          <span class="text-[#858585] w-4">1</span>
+          <span class="text-[#6A9955]">// 1주차 학습 내용</span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] px-2 rounded gap-4">
+          <span class="text-[#858585] w-4">2</span>
+          <span>
+            <span class="text-[#569CD6]">const</span>
+            <span class="text-[#4FC1FF]">StudyTopic</span> =
+            <span class="text-[#CE9178]">"Frontend Track"</span>;
+          </span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] px-2 rounded gap-4">
+          <span class="text-[#858585] w-4">3</span>
+          <span>
+            <span class="text-[#569CD6]">const</span>
+            <span class="text-[#4FC1FF]">StudyTitle</span> =
+            <span class="text-[#CE9178]">"통합 git 세션"</span>;
+          </span>
+        </div>
+
+        <div class="flex px-2 gap-4">
+          <span class="text-[#858585] w-4">4</span>
+          <span></span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] px-2 rounded gap-4">
+          <span class="text-[#858585] w-4">5</span>
+          <span>
+            <span class="text-[#569CD6]">function</span>
+            <span class="text-[#DCDCAA]">learn</span>() {
+          </span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] px-2 rounded gap-10">
+          <span class="text-gray-500 w-4">6</span>
+          <span>
+            <span class="text-[#9CDCFE]">console</span>.<span class="text-[#DCDCAA]">log</span>(
+            <span class="text-[#CE9178]">"프론트, 백 모두 github 사용법에 대해 배웁니다."</span>
+            );
+          </span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] flex px-2 gap-10 line-effect">
+          <span class="text-gray-500 w-4">7</span>
+          <span>
+            <span class="text-[#9CDCFE]">console</span>.<span class="text-[#DCDCAA]">log</span>(
+            <span class="text-[#CE9178]">"미래에 협업을 위한, 동아리 활동 지속을 위한 간단한 사용방법을 익힙니다."</span>
+            );
+          </span>
+        </div>
+
+        <div class="flex hover:bg-[#2a2d2e] gap-5 line-effect">
+          <span class="text-gray-500 px-2">8</span>
+          <span>}</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
